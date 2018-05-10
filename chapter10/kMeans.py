@@ -178,8 +178,7 @@ def geoGrab(stAddress, city):
     params['location'] = '%s %s' % (stAddress, city)
     url_params = urllib.parse.urlencode(params)
     yahooApi = apiStem + url_params  # print url_params
-    print
-    yahooApi
+    print(yahooApi)
     c = urllib.request.urlopen(yahooApi)
     return json.loads(c.read())
 
@@ -221,14 +220,16 @@ def clusterClubs(numClust=5):
         lineArr = line.split('\t')
         datList.append([float(lineArr[4]), float(lineArr[3])])
     datMat = np.mat(datList)
-    myCentroids, clustAssing = binKMeans(datMat, numClust, distMeas=distSLC)
+    myCentroids, clustAssing = binKMeans(datMat, numClust, distMeans=distSLC)
     fig = plt.figure()
     rect = [0.1, 0.1, 0.8, 0.8]
     scatterMarkers = ['s', 'o', '^', '8', 'p', \
                       'd', 'v', 'h', '>', '<']
     axprops = dict(xticks=[], yticks=[])
     ax0 = fig.add_axes(rect, label='ax0', **axprops)
+    # 基于图像创建矩阵
     imgP = plt.imread('Portland.png')
+    # 绘制矩阵
     ax0.imshow(imgP)
     ax1 = fig.add_axes(rect, label='ax1', frameon=False)
     for i in range(numClust):
@@ -236,6 +237,7 @@ def clusterClubs(numClust=5):
         markerStyle = scatterMarkers[i % len(scatterMarkers)]
         ax1.scatter(ptsInCurrCluster[:, 0].flatten().A[0], ptsInCurrCluster[:, 1].flatten().A[0], marker=markerStyle,
                     s=90)
+    # 十字标记表示簇质心
     ax1.scatter(myCentroids[:, 0].flatten().A[0], myCentroids[:, 1].flatten().A[0], marker='+', s=300)
     plt.show()
 
@@ -247,4 +249,4 @@ myCentroids, clustAssing = binKMeans(dataSet, 3)
 print(myCentroids)
 
 """
-print(geoGrab('1 VA center', 'Augusta, ME'))
+clusterClubs(5)
