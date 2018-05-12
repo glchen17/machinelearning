@@ -18,34 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="regTrees.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/chapter 9/regTrees.py">
+      <file leaf-file-name="apriori.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/chapter11/apriori.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-201">
-              <caret line="125" column="31" selection-start-line="125" selection-start-column="31" selection-end-line="125" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="kMeans.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter10/kMeans.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-682">
-              <caret line="60" column="7" selection-start-line="60" selection-start-column="7" selection-end-line="60" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="testSet.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter10/testSet.txt">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="ex00.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter 9/ex00.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-column="20" />
+            <state relative-caret-position="209">
+              <caret line="173" column="73" lean-forward="true" selection-start-line="173" selection-start-column="73" selection-end-line="173" selection-end-column="73" />
             </state>
           </provider>
         </entry>
@@ -103,6 +80,7 @@
         <option value="$PROJECT_DIR$/chapter 9/regTrees.py" />
         <option value="$PROJECT_DIR$/chapter10.py" />
         <option value="$PROJECT_DIR$/chapter10/kMeans.py" />
+        <option value="$PROJECT_DIR$/chapter11/apriori.py" />
       </list>
     </option>
   </component>
@@ -124,6 +102,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -134,18 +113,12 @@
             <path>
               <item name="machinelearning" type="b2602c69:ProjectViewProjectNode" />
               <item name="machinelearning" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter 9" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="machinelearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="machinelearning" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter10" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter11" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -175,8 +148,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.kMeans">
-    <configuration name="Demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.apriori">
+    <configuration name="apriori" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="machinelearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -184,11 +157,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter11" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\mycode\pycharm\machinelearning\chapter7\horseColic.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter11/apriori.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -267,19 +240,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.Demo" />
       <item itemvalue="Python.regression" />
       <item itemvalue="Python.lego" />
       <item itemvalue="Python.regTrees" />
       <item itemvalue="Python.kMeans" />
+      <item itemvalue="Python.apriori" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.apriori" />
         <item itemvalue="Python.kMeans" />
         <item itemvalue="Python.regTrees" />
         <item itemvalue="Python.lego" />
         <item itemvalue="Python.regression" />
-        <item itemvalue="Python.Demo" />
       </list>
     </recent_temporary>
   </component>
@@ -299,23 +272,22 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22986823" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.22986823" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50073206" side_tool="true" weight="0.31096563" />
-      <window_info anchor="right" x="0" y="0" width="295" height="544" id="Documentation" order="5" side_tool="true" weight="0.329429" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49926794" weight="0.3289689" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49926794" visible="true" weight="0.31096563" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49926794" weight="0.26350245" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5744681" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" x="0" y="0" width="295" height="544" id="Documentation" order="5" side_tool="true" weight="0.329429" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -327,24 +299,24 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33387887" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1749634" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Python Console" order="8" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" x="0" y="0" width="295" height="544" id="Documentation" order="5" side_tool="true" weight="0.329429" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="SciView" order="4" weight="0.5717423" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Python Console" order="8" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Favorites" order="2" side_tool="true" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -381,10 +353,31 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="6" />
+      <option name="time" value="9" />
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="Lk" language="Python" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>Lk</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/chapter10/kMeans.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="239" column="13" selection-start-line="239" selection-start-column="13" selection-end-line="239" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/chapter2/DigitsTest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1100">
@@ -706,16 +699,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter10.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter10/testSet.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/chapter10/kMeans.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-682">
-          <caret line="60" column="7" selection-start-line="60" selection-start-column="7" selection-end-line="60" selection-end-column="7" />
+        <state relative-caret-position="239">
+          <caret line="105" lean-forward="true" selection-start-line="105" selection-end-line="105" />
         </state>
       </provider>
     </entry>
@@ -723,6 +710,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-201">
           <caret line="125" column="31" selection-start-line="125" selection-start-column="31" selection-end-line="125" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter11/apriori.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="173" column="73" lean-forward="true" selection-start-line="173" selection-start-column="73" selection-end-line="173" selection-end-column="73" />
         </state>
       </provider>
     </entry>
